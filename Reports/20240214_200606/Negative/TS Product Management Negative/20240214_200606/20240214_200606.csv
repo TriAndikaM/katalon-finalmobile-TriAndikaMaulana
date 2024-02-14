@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Product Management Negative,,,,14-02-2024 20:06:13,14-02-2024 20:06:58,44.881s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TCN003 - Search Product Gagal,,,,14-02-2024 20:06:13,14-02-2024 20:06:58,44.548s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 20:06:13,14-02-2024 20:06:36,22.969s,PASSED
+"setText(findTestObject(""Object Repository/search/searchbar""), ""asus rog"", 10)",,,,14-02-2024 20:06:36,14-02-2024 20:06:42,5.811s,PASSED
+"tap(findTestObject(""Object Repository/search/search button""), 10)",,,,14-02-2024 20:06:42,14-02-2024 20:06:43,1.062s,PASSED
+"result = verifyElementExist(findTestObject(""Object Repository/search/android.widget.TextView - - No results for asus rog -""), 0)",,,,14-02-2024 20:06:43,14-02-2024 20:06:47,3.375s,PASSED
+if (result == true),,,,14-02-2024 20:06:47,14-02-2024 20:06:58,10.902s,PASSED

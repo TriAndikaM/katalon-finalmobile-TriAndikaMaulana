@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Account Management Positive,,,,14-02-2024 19:54:30,14-02-2024 19:56:04,1m - 34.639s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TCP001 - Login Sukses,,,,14-02-2024 19:54:30,14-02-2024 19:55:03,32.573s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 19:54:30,14-02-2024 19:54:45,14.360s,PASSED
+"tap(findTestObject(""Object Repository/swipebar""), 10)",,,,14-02-2024 19:54:45,14-02-2024 19:54:47,2.552s,PASSED
+"tap(findTestObject(""Object Repository/loginwidget""), 10)",,,,14-02-2024 19:54:47,14-02-2024 19:54:48,1.227s,PASSED
+"setText(findTestObject(""Object Repository/usernamewidget""), username, 10)",,,,14-02-2024 19:54:48,14-02-2024 19:54:52,3.837s,PASSED
+"setText(findTestObject(""Object Repository/passwordwidget""), password, 10)",,,,14-02-2024 19:54:52,14-02-2024 19:54:55,2.314s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - LOGIN""), 10)",,,,14-02-2024 19:54:55,14-02-2024 19:54:55,0.931s,PASSED
+"tap(findTestObject(""Object Repository/facerecoginitionlogin.Button - NO""), 10)",,,,14-02-2024 19:54:55,14-02-2024 19:54:58,2.753s,PASSED
+delay(2),,,,14-02-2024 19:54:58,14-02-2024 19:55:00,2.062s,PASSED
+closeApplication(),,,,14-02-2024 19:55:00,14-02-2024 19:55:02,2.191s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TCP002 - Register Sukses,,,,14-02-2024 19:55:03,14-02-2024 19:56:04,1m - 1.751s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 19:55:03,14-02-2024 19:55:21,18.040s,PASSED
+"tap(findTestObject(""Object Repository/registerpage/swipebar""), 10)",,,,14-02-2024 19:55:21,14-02-2024 19:55:25,4.061s,PASSED
+"tap(findTestObject(""Object Repository/registerpage/loginwidget""), 10)",,,,14-02-2024 19:55:25,14-02-2024 19:55:25,0.505s,PASSED
+"tap(findTestObject(""Object Repository/registerpage/signup today button""), 10)",,,,14-02-2024 19:55:25,14-02-2024 19:55:27,2.144s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/usernameregister.EditText""), ""tikus"", 10)",,,,14-02-2024 19:55:27,14-02-2024 19:55:32,4.136s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/emailregister.EditText""), ""tikus@gmail.com"", 10)",,,,14-02-2024 19:55:32,14-02-2024 19:55:34,2.431s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/passowrdregister.EditText""), ""Tikus1"", 10)",,,,14-02-2024 19:55:34,14-02-2024 19:55:36,2.158s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/confirmpassregister.EditText""), ""Tikus1"", 10)",,,,14-02-2024 19:55:36,14-02-2024 19:55:38,2.056s,PASSED
+hideKeyboard(),,,,14-02-2024 19:55:38,14-02-2024 19:55:41,2.428s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/firstname""), ""Tikus"", 10)",,,,14-02-2024 19:55:41,14-02-2024 19:55:43,2.572s,PASSED
+hideKeyboard(),,,,14-02-2024 19:55:43,14-02-2024 19:55:45,1.366s,PASSED
+"scrollToText(""City"")",,,,14-02-2024 19:55:45,14-02-2024 19:55:48,3.871s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/address""), ""Gorong gorong"", 10)",,,,14-02-2024 19:55:48,14-02-2024 19:55:50,1.987s,PASSED
+hideKeyboard(),,,,14-02-2024 19:55:50,14-02-2024 19:55:52,1.210s,PASSED
+delay(1),,,,14-02-2024 19:55:52,14-02-2024 19:55:53,1.021s,PASSED
+"scrollToText(""REGISTER"")",,,,14-02-2024 19:55:53,14-02-2024 19:55:54,0.949s,PASSED
+"tap(findTestObject(""Object Repository/registerpage/Button - REGISTER""), 10)",,,,14-02-2024 19:55:54,14-02-2024 19:55:54,0.483s,PASSED
+delay(8),,,,14-02-2024 19:55:54,14-02-2024 19:56:02,8.013s,PASSED
+closeApplication(),,,,14-02-2024 19:56:02,14-02-2024 19:56:04,2.106s,PASSED

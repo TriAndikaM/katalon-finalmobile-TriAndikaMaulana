@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Negative Case/TCN001 - Login Gagal","testCaseId":"Test Cases/Negative Case/TCN001 - Login Gagal","iterationVariableName":"","bindedValues":{"password":"\u0027Harimau1\u0027","username":"\u0027harimau\u0027"}}
+{"testCaseName":"Test Cases/Negative Case/TCN001 - Login Gagal","testCaseId":"Test Cases/Negative Case/TCN001 - Login Gagal","iterationVariableName":"","bindedValues":{"password":"\u0027Angsa1\u0027","username":"\u0027angsa\u0027"}}
+{"testCaseName":"Test Cases/Negative Case/TCN001 - Login Gagal","testCaseId":"Test Cases/Negative Case/TCN001 - Login Gagal","iterationVariableName":"","bindedValues":{"password":"\u0027Trenggiling1\u0027","username":"\u0027trenggiling\u0027"}}
+{"testCaseName":"Test Cases/Negative Case/TCN002 - Register Gagal","testCaseId":"Test Cases/Negative Case/TCN002 - Register Gagal","iterationVariableName":""}

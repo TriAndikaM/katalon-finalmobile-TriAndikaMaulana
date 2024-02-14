@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCP003 - Search Product Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cad323f2-4a3a-4e70-98b0-11cc008ade96</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>575b9153-25cb-4854-9aec-e187099fd53e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Product</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9890624-3b70-4ecb-9e3c-817b5d26b7aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>575b9153-25cb-4854-9aec-e187099fd53e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>name_product</value>
+      <variableId>267bfb9c-716f-4983-9621-87a1a194169e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>e9890624-3b70-4ecb-9e3c-817b5d26b7aa</id>
+      <masked>false</masked>
+      <name>result</name>
+   </variable>
+   <variable>
+      <defaultValue>'microsoft'</defaultValue>
+      <description></description>
+      <id>267bfb9c-716f-4983-9621-87a1a194169e</id>
+      <masked>false</masked>
+      <name>name_product</name>
+   </variable>
+</TestCaseEntity>

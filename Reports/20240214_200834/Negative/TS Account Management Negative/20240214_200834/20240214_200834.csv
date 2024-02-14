@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Account Management Negative,,,,14-02-2024 20:08:41,14-02-2024 20:11:19,2m - 37.888s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TCN001 - Login Gagal,,,,14-02-2024 20:08:41,14-02-2024 20:09:21,39.178s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 20:08:42,14-02-2024 20:09:04,22.077s,PASSED
+"tap(findTestObject(""Object Repository/swipebar""), 10)",,,,14-02-2024 20:09:04,14-02-2024 20:09:07,2.699s,PASSED
+"tap(findTestObject(""Object Repository/loginwidget""), 10)",,,,14-02-2024 20:09:07,14-02-2024 20:09:08,1.321s,PASSED
+"setText(findTestObject(""Object Repository/usernamewidget""), username, 10)",,,,14-02-2024 20:09:08,14-02-2024 20:09:12,3.716s,PASSED
+"setText(findTestObject(""Object Repository/passwordwidget""), password, 10)",,,,14-02-2024 20:09:12,14-02-2024 20:09:14,2.349s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - LOGIN""), 10)",,,,14-02-2024 20:09:14,14-02-2024 20:09:15,0.926s,PASSED
+delay(3),,,,14-02-2024 20:09:15,14-02-2024 20:09:18,3.048s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Incorrect user name or password""), 0)",,,,14-02-2024 20:09:18,14-02-2024 20:09:19,0.388s,PASSED
+closeApplication(),,,,14-02-2024 20:09:19,14-02-2024 20:09:21,2.072s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TCN001 - Login Gagal,,,,14-02-2024 20:09:21,14-02-2024 20:09:56,35.552s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 20:09:21,14-02-2024 20:09:39,18.034s,PASSED
+"tap(findTestObject(""Object Repository/swipebar""), 10)",,,,14-02-2024 20:09:39,14-02-2024 20:09:43,3.988s,PASSED
+"tap(findTestObject(""Object Repository/loginwidget""), 10)",,,,14-02-2024 20:09:43,14-02-2024 20:09:43,0.480s,PASSED
+"setText(findTestObject(""Object Repository/usernamewidget""), username, 10)",,,,14-02-2024 20:09:43,14-02-2024 20:09:47,3.797s,PASSED
+"setText(findTestObject(""Object Repository/passwordwidget""), password, 10)",,,,14-02-2024 20:09:47,14-02-2024 20:09:50,2.496s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - LOGIN""), 10)",,,,14-02-2024 20:09:50,14-02-2024 20:09:50,0.965s,PASSED
+delay(3),,,,14-02-2024 20:09:50,14-02-2024 20:09:53,3.014s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Incorrect user name or password""), 0)",,,,14-02-2024 20:09:53,14-02-2024 20:09:54,0.400s,PASSED
+closeApplication(),,,,14-02-2024 20:09:54,14-02-2024 20:09:56,2.335s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TCN001 - Login Gagal,,,,14-02-2024 20:09:56,14-02-2024 20:10:31,35.055s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 20:09:56,14-02-2024 20:10:14,17.514s,PASSED
+"tap(findTestObject(""Object Repository/swipebar""), 10)",,,,14-02-2024 20:10:14,14-02-2024 20:10:18,4.085s,PASSED
+"tap(findTestObject(""Object Repository/loginwidget""), 10)",,,,14-02-2024 20:10:18,14-02-2024 20:10:18,0.473s,PASSED
+"setText(findTestObject(""Object Repository/usernamewidget""), username, 10)",,,,14-02-2024 20:10:18,14-02-2024 20:10:22,3.727s,PASSED
+"setText(findTestObject(""Object Repository/passwordwidget""), password, 10)",,,,14-02-2024 20:10:22,14-02-2024 20:10:25,2.661s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - LOGIN""), 10)",,,,14-02-2024 20:10:25,14-02-2024 20:10:26,0.943s,PASSED
+delay(3),,,,14-02-2024 20:10:26,14-02-2024 20:10:29,3.010s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Incorrect user name or password""), 0)",,,,14-02-2024 20:10:29,14-02-2024 20:10:29,0.438s,PASSED
+closeApplication(),,,,14-02-2024 20:10:29,14-02-2024 20:10:31,2.172s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TCN002 - Register Gagal,,,,14-02-2024 20:10:31,14-02-2024 20:11:19,47.639s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 20:10:31,14-02-2024 20:10:49,17.938s,PASSED
+"tap(findTestObject(""Object Repository/registerpage/swipebar""), 10)",,,,14-02-2024 20:10:49,14-02-2024 20:10:53,3.897s,PASSED
+"tap(findTestObject(""Object Repository/registerpage/loginwidget""), 10)",,,,14-02-2024 20:10:53,14-02-2024 20:10:54,0.506s,PASSED
+"tap(findTestObject(""Object Repository/registerpage/signup today button""), 10)",,,,14-02-2024 20:10:54,14-02-2024 20:10:56,2.011s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/usernameregister.EditText""), ""kelinci"", 10)",,,,14-02-2024 20:10:56,14-02-2024 20:11:00,4.511s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/emailregister.EditText""), ""kelinci@gmail.com"", 10)",,,,14-02-2024 20:11:00,14-02-2024 20:11:03,2.351s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/passowrdregister.EditText""), ""Kelinci1"", 10)",,,,14-02-2024 20:11:03,14-02-2024 20:11:05,2.270s,PASSED
+"setText(findTestObject(""Object Repository/registerpage/confirmpassregister.EditText""), ""Kelinci1"", 10)",,,,14-02-2024 20:11:05,14-02-2024 20:11:07,2.143s,PASSED
+hideKeyboard(),,,,14-02-2024 20:11:07,14-02-2024 20:11:09,2.371s,PASSED
+delay(1),,,,14-02-2024 20:11:09,14-02-2024 20:11:10,1.009s,PASSED
+"scrollToText(""REGISTER"")",,,,14-02-2024 20:11:10,14-02-2024 20:11:14,3.640s,PASSED
+"tap(findTestObject(""Object Repository/registerpage/Button - REGISTER""), 10)",,,,14-02-2024 20:11:14,14-02-2024 20:11:15,0.470s,PASSED
+delay(2),,,,14-02-2024 20:11:15,14-02-2024 20:11:17,2.017s,PASSED
+closeApplication(),,,,14-02-2024 20:11:17,14-02-2024 20:11:19,2.382s,PASSED

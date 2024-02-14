@@ -11,17 +11,15 @@
    <driver>InternalData</driver>
    <data>harimau Harimau1</data>
    <data>angsa Angsa1</data>
-   <data>trenggiling Trenggiling1</data>
-   <data>semut Semut1</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>4</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>4</size>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

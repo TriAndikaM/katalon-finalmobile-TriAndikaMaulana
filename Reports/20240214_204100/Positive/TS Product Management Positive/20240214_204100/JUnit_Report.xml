@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Product Management Positive" time="105.486" tests="3" failures="0" errors="0">
+   <testsuite name="TS Product Management Positive" tests="3" failures="0" errors="0" time="105.486" skipped="0" timestamp="14-02-2024T20:41:06" hostname="asus - LAPTOP-PECE1U4E" id="Test Suites/Positive/TS Product Management Positive">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_204100\\Positive\\TS Product Management Positive\\20240214_204100"/>
+         <property name="logFiles" value="E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_204100\\Positive\\TS Product Management Positive\\20240214_204100\\appium.log, E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_204100\\Positive\\TS Product Management Positive\\20240214_204100\\appium_error.log, E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_204100\\Positive\\TS Product Management Positive\\20240214_204100\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus - LAPTOP-PECE1U4E"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="172.20.10.3"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Positive Case/TCP003 - Search Product Success" time="32.98" classname="Test Cases/Positive Case/TCP003 - Search Product Success" status="PASSED">
+         <system-out><![CDATA[14-02-2024T20:41:06 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TCP003 - Search Product Success: Test Cases/Positive Case/TCP003 - Search Product Success
+
+14-02-2024T20:41:07 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:41:07 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-02-2024T20:41:13 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-02-2024T20:41:13 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+14-02-2024T20:41:13 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_204100\Positive\TS Product Management Positive\20240214_204100\appium.log
+
+14-02-2024T20:41:13 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_204100\Positive\TS Product Management Positive\20240214_204100\appium_error.log
+
+14-02-2024T20:41:15 - [MESSAGE][INFO] - Appium server started on port 54,626
+
+14-02-2024T20:41:28 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:41:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search/searchbar"), name_product, 10): Text 'bose soundlink' has been set to element 'Object Repository/search/searchbar'
+
+14-02-2024T20:41:34 - [MESSAGE][PASSED] - Text 'bose soundlink' has been set to element 'Object Repository/search/searchbar'
+
+14-02-2024T20:41:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/search/search button"), 10): Tapped on element 'Object Repository/search/search button'
+
+14-02-2024T20:41:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/search/search button'
+
+14-02-2024T20:41:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-02-2024T20:41:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-02-2024T20:41:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-02-2024T20:41:39 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TCP003 - Search Product Success" time="23.357" classname="Test Cases/Positive Case/TCP003 - Search Product Success" status="PASSED">
+         <system-out><![CDATA[14-02-2024T20:41:39 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TCP003 - Search Product Success: Test Cases/Positive Case/TCP003 - Search Product Success
+
+14-02-2024T20:41:39 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:41:40 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-02-2024T20:41:40 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-02-2024T20:41:40 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+14-02-2024T20:41:40 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_204100\Positive\TS Product Management Positive\20240214_204100\appium.log
+
+14-02-2024T20:41:40 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_204100\Positive\TS Product Management Positive\20240214_204100\appium_error.log
+
+14-02-2024T20:41:43 - [MESSAGE][INFO] - Appium server started on port 54,873
+
+14-02-2024T20:41:52 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:41:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search/searchbar"), name_product, 10): Text 'hp envy' has been set to element 'Object Repository/search/searchbar'
+
+14-02-2024T20:41:58 - [MESSAGE][PASSED] - Text 'hp envy' has been set to element 'Object Repository/search/searchbar'
+
+14-02-2024T20:41:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/search/search button"), 10): Tapped on element 'Object Repository/search/search button'
+
+14-02-2024T20:41:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/search/search button'
+
+14-02-2024T20:41:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-02-2024T20:42:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-02-2024T20:42:01 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-02-2024T20:42:03 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TCP004 - Product Details Through Category" time="48.768" classname="Test Cases/Positive Case/TCP004 - Product Details Through Category" status="PASSED">
+         <system-out><![CDATA[14-02-2024T20:42:03 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TCP004 - Product Details Through Category: Test Cases/Positive Case/TCP004 - Product Details Through Category
+
+14-02-2024T20:42:03 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:42:03 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-02-2024T20:42:09 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-02-2024T20:42:09 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+14-02-2024T20:42:09 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_204100\Positive\TS Product Management Positive\20240214_204100\appium.log
+
+14-02-2024T20:42:09 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_204100\Positive\TS Product Management Positive\20240214_204100\appium_error.log
+
+14-02-2024T20:42:11 - [MESSAGE][INFO] - Appium server started on port 55,107
+
+14-02-2024T20:42:21 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:42:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/swipebar"), 10): Tapped on element 'Object Repository/swipebar'
+
+14-02-2024T20:42:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/swipebar'
+
+14-02-2024T20:42:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginwidget"), 10): Tapped on element 'Object Repository/loginwidget'
+
+14-02-2024T20:42:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginwidget'
+
+14-02-2024T20:42:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/usernamewidget"), username, 10): Text 'kelinci' has been set to element 'Object Repository/usernamewidget'
+
+14-02-2024T20:42:29 - [MESSAGE][PASSED] - Text 'kelinci' has been set to element 'Object Repository/usernamewidget'
+
+14-02-2024T20:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/passwordwidget"), password, 10): Text 'Kelinci1' has been set to element 'Object Repository/passwordwidget'
+
+14-02-2024T20:42:32 - [MESSAGE][PASSED] - Text 'Kelinci1' has been set to element 'Object Repository/passwordwidget'
+
+14-02-2024T20:42:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - LOGIN"), 10): Tapped on element 'Object Repository/android.widget.Button - LOGIN'
+
+14-02-2024T20:42:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - LOGIN'
+
+14-02-2024T20:42:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/facerecoginitionlogin.Button - NO"), 10): Tapped on element 'Object Repository/facerecoginitionlogin.Button - NO'
+
+14-02-2024T20:42:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/facerecoginitionlogin.Button - NO'
+
+14-02-2024T20:42:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-02-2024T20:42:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-02-2024T20:42:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.TextView - LAPTOPS"), 10): Tapped on element 'Object Repository/checkout/android.widget.TextView - LAPTOPS'
+
+14-02-2024T20:42:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.TextView - LAPTOPS'
+
+14-02-2024T20:42:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.ImageView"), 10): Tapped on element 'Object Repository/checkout/android.widget.ImageView'
+
+14-02-2024T20:42:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.ImageView'
+
+14-02-2024T20:42:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.ImageView (1)"), 10): Tapped on element 'Object Repository/checkout/android.widget.ImageView (1)'
+
+14-02-2024T20:42:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.ImageView (1)'
+
+14-02-2024T20:42:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.ImageView (2)"), 10): Tapped on element 'Object Repository/checkout/android.widget.ImageView (2)'
+
+14-02-2024T20:42:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.ImageView (2)'
+
+14-02-2024T20:42:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-02-2024T20:42:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-02-2024T20:42:50 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-02-2024T20:42:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-02-2024T20:41:06 - [TEST_SUITE][PASSED] - TS Product Management Positive: Test Cases/Positive Case/TCP004 - Product Details Through Category]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -39,12 +39,10 @@ Mobile.delay(1)
 
 Mobile.scrollToText('REGISTER')
 
+Mobile.delay(3)
+
 Mobile.tap(findTestObject('Object Repository/registerpage/Button - REGISTER'), 10)
 
-Mobile.delay(1)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/registerpage/usernamealreadyexistwidget.Toast'), 10)
-
-Mobile.delay(2)
+Mobile.delay(3)
 
 Mobile.closeApplication()

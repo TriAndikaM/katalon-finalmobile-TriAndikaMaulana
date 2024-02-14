@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Account Management Positive" time="94.639" tests="2" failures="0" errors="0">
+   <testsuite name="TS Account Management Positive" tests="2" failures="0" errors="0" time="94.639" skipped="0" timestamp="14-02-2024T19:54:30" hostname="asus - LAPTOP-PECE1U4E" id="Test Suites/TS Account Management Positive">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_195423\\TS Account Management Positive\\20240214_195423"/>
+         <property name="logFiles" value="E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_195423\\TS Account Management Positive\\20240214_195423\\appium.log, E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_195423\\TS Account Management Positive\\20240214_195423\\appium_error.log, E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_195423\\TS Account Management Positive\\20240214_195423\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus - LAPTOP-PECE1U4E"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="172.20.10.3"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Positive Case/TCP001 - Login Sukses" time="32.573" classname="Test Cases/Positive Case/TCP001 - Login Sukses" status="PASSED">
+         <system-out><![CDATA[14-02-2024T19:54:30 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TCP001 - Login Sukses: Test Cases/Positive Case/TCP001 - Login Sukses
+
+14-02-2024T19:54:30 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T19:54:31 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-02-2024T19:54:31 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-02-2024T19:54:31 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+14-02-2024T19:54:31 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_195423\TS Account Management Positive\20240214_195423\appium.log
+
+14-02-2024T19:54:31 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_195423\TS Account Management Positive\20240214_195423\appium_error.log
+
+14-02-2024T19:54:34 - [MESSAGE][INFO] - Appium server started on port 6,782
+
+14-02-2024T19:54:45 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T19:54:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/swipebar"), 10): Tapped on element 'Object Repository/swipebar'
+
+14-02-2024T19:54:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/swipebar'
+
+14-02-2024T19:54:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginwidget"), 10): Tapped on element 'Object Repository/loginwidget'
+
+14-02-2024T19:54:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginwidget'
+
+14-02-2024T19:54:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/usernamewidget"), username, 10): Text 'kelinci' has been set to element 'Object Repository/usernamewidget'
+
+14-02-2024T19:54:52 - [MESSAGE][PASSED] - Text 'kelinci' has been set to element 'Object Repository/usernamewidget'
+
+14-02-2024T19:54:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/passwordwidget"), password, 10): Text 'Kelinci1' has been set to element 'Object Repository/passwordwidget'
+
+14-02-2024T19:54:55 - [MESSAGE][PASSED] - Text 'Kelinci1' has been set to element 'Object Repository/passwordwidget'
+
+14-02-2024T19:54:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - LOGIN"), 10): Tapped on element 'Object Repository/android.widget.Button - LOGIN'
+
+14-02-2024T19:54:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - LOGIN'
+
+14-02-2024T19:54:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/facerecoginitionlogin.Button - NO"), 10): Tapped on element 'Object Repository/facerecoginitionlogin.Button - NO'
+
+14-02-2024T19:54:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/facerecoginitionlogin.Button - NO'
+
+14-02-2024T19:54:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-02-2024T19:55:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-02-2024T19:55:00 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-02-2024T19:55:02 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TCP002 - Register Sukses" time="61.751" classname="Test Cases/Positive Case/TCP002 - Register Sukses" status="PASSED">
+         <system-out><![CDATA[14-02-2024T19:55:03 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TCP002 - Register Sukses: Test Cases/Positive Case/TCP002 - Register Sukses
+
+14-02-2024T19:55:03 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T19:55:03 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-02-2024T19:55:08 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-02-2024T19:55:08 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+14-02-2024T19:55:08 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_195423\TS Account Management Positive\20240214_195423\appium.log
+
+14-02-2024T19:55:08 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_195423\TS Account Management Positive\20240214_195423\appium_error.log
+
+14-02-2024T19:55:12 - [MESSAGE][INFO] - Appium server started on port 7,045
+
+14-02-2024T19:55:21 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T19:55:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/registerpage/swipebar"), 10): Tapped on element 'Object Repository/registerpage/swipebar'
+
+14-02-2024T19:55:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/registerpage/swipebar'
+
+14-02-2024T19:55:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/registerpage/loginwidget"), 10): Tapped on element 'Object Repository/registerpage/loginwidget'
+
+14-02-2024T19:55:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/registerpage/loginwidget'
+
+14-02-2024T19:55:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/registerpage/signup today button"), 10): Tapped on element 'Object Repository/registerpage/signup today button'
+
+14-02-2024T19:55:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/registerpage/signup today button'
+
+14-02-2024T19:55:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/usernameregister.EditText"), "tikus", 10): Text 'tikus' has been set to element 'Object Repository/registerpage/usernameregister.EditText'
+
+14-02-2024T19:55:32 - [MESSAGE][PASSED] - Text 'tikus' has been set to element 'Object Repository/registerpage/usernameregister.EditText'
+
+14-02-2024T19:55:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/emailregister.EditText"), "tikus@gmail.com", 10): Text 'tikus@gmail.com' has been set to element 'Object Repository/registerpage/emailregister.EditText'
+
+14-02-2024T19:55:34 - [MESSAGE][PASSED] - Text 'tikus@gmail.com' has been set to element 'Object Repository/registerpage/emailregister.EditText'
+
+14-02-2024T19:55:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/passowrdregister.EditText"), "Tikus1", 10): Text 'Tikus1' has been set to element 'Object Repository/registerpage/passowrdregister.EditText'
+
+14-02-2024T19:55:36 - [MESSAGE][PASSED] - Text 'Tikus1' has been set to element 'Object Repository/registerpage/passowrdregister.EditText'
+
+14-02-2024T19:55:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/confirmpassregister.EditText"), "Tikus1", 10): Text 'Tikus1' has been set to element 'Object Repository/registerpage/confirmpassregister.EditText'
+
+14-02-2024T19:55:38 - [MESSAGE][PASSED] - Text 'Tikus1' has been set to element 'Object Repository/registerpage/confirmpassregister.EditText'
+
+14-02-2024T19:55:38 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+14-02-2024T19:55:41 - [MESSAGE][PASSED] - Keyboard is hidden
+
+14-02-2024T19:55:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/firstname"), "Tikus", 10): Text 'Tikus' has been set to element 'Object Repository/registerpage/firstname'
+
+14-02-2024T19:55:43 - [MESSAGE][PASSED] - Text 'Tikus' has been set to element 'Object Repository/registerpage/firstname'
+
+14-02-2024T19:55:43 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+14-02-2024T19:55:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+14-02-2024T19:55:45 - [TEST_STEP][PASSED] - scrollToText("City"): Scrolling to text 'City' successfully
+
+14-02-2024T19:55:48 - [MESSAGE][PASSED] - Scrolling to text 'City' successfully
+
+14-02-2024T19:55:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/address"), "Gorong gorong", 10): Text 'Gorong gorong' has been set to element 'Object Repository/registerpage/address'
+
+14-02-2024T19:55:50 - [MESSAGE][PASSED] - Text 'Gorong gorong' has been set to element 'Object Repository/registerpage/address'
+
+14-02-2024T19:55:50 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+14-02-2024T19:55:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+14-02-2024T19:55:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+14-02-2024T19:55:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+14-02-2024T19:55:53 - [TEST_STEP][PASSED] - scrollToText("REGISTER"): Scrolling to text 'REGISTER' successfully
+
+14-02-2024T19:55:54 - [MESSAGE][PASSED] - Scrolling to text 'REGISTER' successfully
+
+14-02-2024T19:55:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/registerpage/Button - REGISTER"), 10): Tapped on element 'Object Repository/registerpage/Button - REGISTER'
+
+14-02-2024T19:55:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/registerpage/Button - REGISTER'
+
+14-02-2024T19:55:54 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+14-02-2024T19:56:02 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+14-02-2024T19:56:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-02-2024T19:56:04 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-02-2024T19:54:30 - [TEST_SUITE][PASSED] - TS Account Management Positive: Test Cases/Positive Case/TCP002 - Register Sukses]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

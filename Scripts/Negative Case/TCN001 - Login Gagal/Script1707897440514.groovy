@@ -29,7 +29,8 @@ Mobile.setText(findTestObject('Object Repository/passwordwidget'), password, 10)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.Button - LOGIN'), 10)
 
-Mobile.clearText(findTestObject('Object Repository/usernamewidget'))
+Mobile.delay(3)
 
+Mobile.verifyElementVisible(findTestObject('Object Repository/Incorrect user name or password'), 0)
 
 Mobile.closeApplication()

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Account Management Negative" time="132.953" tests="3" failures="0" errors="0">
+   <testsuite name="TS Account Management Negative" tests="3" failures="0" errors="0" time="132.953" skipped="0" timestamp="14-02-2024T20:26:18" hostname="asus - LAPTOP-PECE1U4E" id="Test Suites/Negative/TS Account Management Negative">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_202611\\Negative\\TS Account Management Negative\\20240214_202611"/>
+         <property name="logFiles" value="E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_202611\\Negative\\TS Account Management Negative\\20240214_202611\\appium.log, E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_202611\\Negative\\TS Account Management Negative\\20240214_202611\\appium_error.log, E:\\Training BRI\\Bootcamp IT\\Katalon Automation Testing\\Automation Project\\katalon-finalmobile-TriAndikaMaulana\\Reports\\20240214_202611\\Negative\\TS Account Management Negative\\20240214_202611\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus - LAPTOP-PECE1U4E"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="172.20.10.3"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Negative Case/TCN001 - Login Gagal" time="45.539" classname="Test Cases/Negative Case/TCN001 - Login Gagal" status="PASSED">
+         <system-out><![CDATA[14-02-2024T20:26:19 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TCN001 - Login Gagal: Test Cases/Negative Case/TCN001 - Login Gagal
+
+14-02-2024T20:26:19 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:26:20 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-02-2024T20:26:26 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-02-2024T20:26:26 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+14-02-2024T20:26:26 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_202611\Negative\TS Account Management Negative\20240214_202611\appium.log
+
+14-02-2024T20:26:26 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_202611\Negative\TS Account Management Negative\20240214_202611\appium_error.log
+
+14-02-2024T20:26:29 - [MESSAGE][INFO] - Appium server started on port 51,140
+
+14-02-2024T20:26:46 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:26:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/swipebar"), 10): Tapped on element 'Object Repository/swipebar'
+
+14-02-2024T20:26:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/swipebar'
+
+14-02-2024T20:26:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginwidget"), 10): Tapped on element 'Object Repository/loginwidget'
+
+14-02-2024T20:26:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginwidget'
+
+14-02-2024T20:26:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/usernamewidget"), username, 10): Text 'harimau' has been set to element 'Object Repository/usernamewidget'
+
+14-02-2024T20:26:54 - [MESSAGE][PASSED] - Text 'harimau' has been set to element 'Object Repository/usernamewidget'
+
+14-02-2024T20:26:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/passwordwidget"), password, 10): Text 'Harimau1' has been set to element 'Object Repository/passwordwidget'
+
+14-02-2024T20:26:58 - [MESSAGE][PASSED] - Text 'Harimau1' has been set to element 'Object Repository/passwordwidget'
+
+14-02-2024T20:26:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - LOGIN"), 10): Tapped on element 'Object Repository/android.widget.Button - LOGIN'
+
+14-02-2024T20:26:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - LOGIN'
+
+14-02-2024T20:26:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-02-2024T20:27:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-02-2024T20:27:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Incorrect user name or password"), 0): Element 'Object Repository/Incorrect user name or password' is visible
+
+14-02-2024T20:27:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-02-2024T20:27:02 - [MESSAGE][PASSED] - Element 'Object Repository/Incorrect user name or password' is visible
+
+14-02-2024T20:27:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-02-2024T20:27:04 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TCN001 - Login Gagal" time="35.211" classname="Test Cases/Negative Case/TCN001 - Login Gagal" status="PASSED">
+         <system-out><![CDATA[14-02-2024T20:27:04 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TCN001 - Login Gagal: Test Cases/Negative Case/TCN001 - Login Gagal
+
+14-02-2024T20:27:04 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:27:05 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-02-2024T20:27:10 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-02-2024T20:27:10 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+14-02-2024T20:27:10 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_202611\Negative\TS Account Management Negative\20240214_202611\appium.log
+
+14-02-2024T20:27:10 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_202611\Negative\TS Account Management Negative\20240214_202611\appium_error.log
+
+14-02-2024T20:27:13 - [MESSAGE][INFO] - Appium server started on port 51,478
+
+14-02-2024T20:27:23 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:27:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/swipebar"), 10): Tapped on element 'Object Repository/swipebar'
+
+14-02-2024T20:27:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/swipebar'
+
+14-02-2024T20:27:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginwidget"), 10): Tapped on element 'Object Repository/loginwidget'
+
+14-02-2024T20:27:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginwidget'
+
+14-02-2024T20:27:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/usernamewidget"), username, 10): Text 'angsa' has been set to element 'Object Repository/usernamewidget'
+
+14-02-2024T20:27:31 - [MESSAGE][PASSED] - Text 'angsa' has been set to element 'Object Repository/usernamewidget'
+
+14-02-2024T20:27:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/passwordwidget"), password, 10): Text 'Angsa1' has been set to element 'Object Repository/passwordwidget'
+
+14-02-2024T20:27:33 - [MESSAGE][PASSED] - Text 'Angsa1' has been set to element 'Object Repository/passwordwidget'
+
+14-02-2024T20:27:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - LOGIN"), 10): Tapped on element 'Object Repository/android.widget.Button - LOGIN'
+
+14-02-2024T20:27:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - LOGIN'
+
+14-02-2024T20:27:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-02-2024T20:27:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-02-2024T20:27:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Incorrect user name or password"), 0): Element 'Object Repository/Incorrect user name or password' is visible
+
+14-02-2024T20:27:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-02-2024T20:27:37 - [MESSAGE][PASSED] - Element 'Object Repository/Incorrect user name or password' is visible
+
+14-02-2024T20:27:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-02-2024T20:27:40 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TCN002 - Register Gagal" time="51.753" classname="Test Cases/Negative Case/TCN002 - Register Gagal" status="PASSED">
+         <system-out><![CDATA[14-02-2024T20:27:40 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TCN002 - Register Gagal: Test Cases/Negative Case/TCN002 - Register Gagal
+
+14-02-2024T20:27:40 - [TEST_STEP][PASSED] - startApplication("C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:27:40 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-02-2024T20:27:45 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-02-2024T20:27:45 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\asus\.appium
+
+14-02-2024T20:27:45 - [MESSAGE][INFO] - appium outlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_202611\Negative\TS Account Management Negative\20240214_202611\appium.log
+
+14-02-2024T20:27:45 - [MESSAGE][INFO] - appium errlog: E:\Training BRI\Bootcamp IT\Katalon Automation Testing\Automation Project\katalon-finalmobile-TriAndikaMaulana\Reports\20240214_202611\Negative\TS Account Management Negative\20240214_202611\appium_error.log
+
+14-02-2024T20:27:48 - [MESSAGE][INFO] - Appium server started on port 51,727
+
+14-02-2024T20:27:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk'
+
+14-02-2024T20:27:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/registerpage/swipebar"), 10): Tapped on element 'Object Repository/registerpage/swipebar'
+
+14-02-2024T20:28:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/registerpage/swipebar'
+
+14-02-2024T20:28:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/registerpage/loginwidget"), 10): Tapped on element 'Object Repository/registerpage/loginwidget'
+
+14-02-2024T20:28:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/registerpage/loginwidget'
+
+14-02-2024T20:28:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/registerpage/signup today button"), 10): Tapped on element 'Object Repository/registerpage/signup today button'
+
+14-02-2024T20:28:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/registerpage/signup today button'
+
+14-02-2024T20:28:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/usernameregister.EditText"), "kelinci", 10): Text 'kelinci' has been set to element 'Object Repository/registerpage/usernameregister.EditText'
+
+14-02-2024T20:28:09 - [MESSAGE][PASSED] - Text 'kelinci' has been set to element 'Object Repository/registerpage/usernameregister.EditText'
+
+14-02-2024T20:28:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/emailregister.EditText"), "kelinci@gmail.com", 10): Text 'kelinci@gmail.com' has been set to element 'Object Repository/registerpage/emailregister.EditText'
+
+14-02-2024T20:28:11 - [MESSAGE][PASSED] - Text 'kelinci@gmail.com' has been set to element 'Object Repository/registerpage/emailregister.EditText'
+
+14-02-2024T20:28:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/passowrdregister.EditText"), "Kelinci1", 10): Text 'Kelinci1' has been set to element 'Object Repository/registerpage/passowrdregister.EditText'
+
+14-02-2024T20:28:13 - [MESSAGE][PASSED] - Text 'Kelinci1' has been set to element 'Object Repository/registerpage/passowrdregister.EditText'
+
+14-02-2024T20:28:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/registerpage/confirmpassregister.EditText"), "Kelinci1", 10): Text 'Kelinci1' has been set to element 'Object Repository/registerpage/confirmpassregister.EditText'
+
+14-02-2024T20:28:15 - [MESSAGE][PASSED] - Text 'Kelinci1' has been set to element 'Object Repository/registerpage/confirmpassregister.EditText'
+
+14-02-2024T20:28:15 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+14-02-2024T20:28:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+14-02-2024T20:28:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+14-02-2024T20:28:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+14-02-2024T20:28:19 - [TEST_STEP][PASSED] - scrollToText("REGISTER"): Scrolling to text 'REGISTER' successfully
+
+14-02-2024T20:28:23 - [MESSAGE][PASSED] - Scrolling to text 'REGISTER' successfully
+
+14-02-2024T20:28:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-02-2024T20:28:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-02-2024T20:28:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/registerpage/Button - REGISTER"), 10): Tapped on element 'Object Repository/registerpage/Button - REGISTER'
+
+14-02-2024T20:28:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/registerpage/Button - REGISTER'
+
+14-02-2024T20:28:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-02-2024T20:28:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-02-2024T20:28:29 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-02-2024T20:28:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-02-2024T20:26:18 - [TEST_SUITE][PASSED] - TS Account Management Negative: Test Cases/Negative Case/TCN002 - Register Gagal]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

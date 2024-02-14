@@ -51,7 +51,7 @@ Mobile.scrollToText('REGISTER')
 
 Mobile.tap(findTestObject('Object Repository/registerpage/Button - REGISTER'), 10)
 
-Mobile.delay(2)
+Mobile.delay(8)
  
 Mobile.closeApplication()
 

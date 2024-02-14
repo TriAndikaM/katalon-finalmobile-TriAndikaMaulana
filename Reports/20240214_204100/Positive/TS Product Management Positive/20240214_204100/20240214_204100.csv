@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Product Management Positive,,,,14-02-2024 20:41:06,14-02-2024 20:42:52,1m - 45.486s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TCP003 - Search Product Success,,,,14-02-2024 20:41:06,14-02-2024 20:41:39,32.980s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 20:41:07,14-02-2024 20:41:28,21.528s,PASSED
+"setText(findTestObject(""Object Repository/search/searchbar""), name_product, 10)",,,,14-02-2024 20:41:28,14-02-2024 20:41:34,5.449s,PASSED
+"tap(findTestObject(""Object Repository/search/search button""), 10)",,,,14-02-2024 20:41:34,14-02-2024 20:41:35,1.258s,PASSED
+delay(2),,,,14-02-2024 20:41:35,14-02-2024 20:41:37,2.061s,PASSED
+closeApplication(),,,,14-02-2024 20:41:37,14-02-2024 20:41:39,2.380s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TCP003 - Search Product Success,,,,14-02-2024 20:41:39,14-02-2024 20:42:03,23.357s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 20:41:39,14-02-2024 20:41:52,12.759s,PASSED
+"setText(findTestObject(""Object Repository/search/searchbar""), name_product, 10)",,,,14-02-2024 20:41:52,14-02-2024 20:41:58,5.348s,PASSED
+"tap(findTestObject(""Object Repository/search/search button""), 10)",,,,14-02-2024 20:41:58,14-02-2024 20:41:59,1.124s,PASSED
+delay(2),,,,14-02-2024 20:41:59,14-02-2024 20:42:01,2.005s,PASSED
+closeApplication(),,,,14-02-2024 20:42:01,14-02-2024 20:42:03,2.048s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TCP004 - Product Details Through Category,,,,14-02-2024 20:42:03,14-02-2024 20:42:52,48.768s,PASSED
+"startApplication(""C:\Users\asus\Downloads\Documents\Compressed\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 20:42:03,14-02-2024 20:42:21,17.709s,PASSED
+"tap(findTestObject(""Object Repository/swipebar""), 10)",,,,14-02-2024 20:42:21,14-02-2024 20:42:24,3.650s,PASSED
+"tap(findTestObject(""Object Repository/loginwidget""), 10)",,,,14-02-2024 20:42:24,14-02-2024 20:42:26,1.319s,PASSED
+"setText(findTestObject(""Object Repository/usernamewidget""), username, 10)",,,,14-02-2024 20:42:26,14-02-2024 20:42:29,3.644s,PASSED
+"setText(findTestObject(""Object Repository/passwordwidget""), password, 10)",,,,14-02-2024 20:42:29,14-02-2024 20:42:32,2.300s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - LOGIN""), 10)",,,,14-02-2024 20:42:32,14-02-2024 20:42:32,0.925s,PASSED
+"tap(findTestObject(""Object Repository/facerecoginitionlogin.Button - NO""), 10)",,,,14-02-2024 20:42:32,14-02-2024 20:42:36,3.030s,PASSED
+delay(2),,,,14-02-2024 20:42:36,14-02-2024 20:42:38,2.011s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.TextView - LAPTOPS""), 10)",,,,14-02-2024 20:42:38,14-02-2024 20:42:38,0.389s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.ImageView""), 10)",,,,14-02-2024 20:42:38,14-02-2024 20:42:41,3.121s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.ImageView (1)""), 10)",,,,14-02-2024 20:42:41,14-02-2024 20:42:45,3.600s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.ImageView (2)""), 10)",,,,14-02-2024 20:42:45,14-02-2024 20:42:47,1.871s,PASSED
+delay(3),,,,14-02-2024 20:42:47,14-02-2024 20:42:50,3.014s,PASSED
+closeApplication(),,,,14-02-2024 20:42:50,14-02-2024 20:42:52,2.002s,PASSED
