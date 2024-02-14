@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCN001 - Login Gagal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48e0f059-51fd-45aa-8b0f-a1be54406174</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2409dc4d-afbc-4382-9c2e-4fa69ce60bf7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/account</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2409dc4d-afbc-4382-9c2e-4fa69ce60bf7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>2b1d4e1d-37ac-45fd-8501-55c388d604ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2409dc4d-afbc-4382-9c2e-4fa69ce60bf7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>73202093-05bf-40a4-8f63-b9d58c4af650</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f3ef2b6d-1282-46ba-af39-447d156c7307</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2b1d4e1d-37ac-45fd-8501-55c388d604ca</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>73202093-05bf-40a4-8f63-b9d58c4af650</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>4</defaultValue>
+      <description></description>
+      <id>f3ef2b6d-1282-46ba-af39-447d156c7307</id>
+      <masked>false</masked>
+      <name>num_username</name>
+   </variable>
+</TestCaseEntity>
