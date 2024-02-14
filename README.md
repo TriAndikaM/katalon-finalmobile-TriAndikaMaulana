@@ -23,7 +23,7 @@ Global Varibel yang digunakan :
 - Password
 ### 2. Regiter Success
 #### Deskripsi
-"Test case ini mengotomasi proses pendaftaran pengguna yang belum memiliki akun dengan mengisi secara otomatis formulir pendaftaran dengan data yang relevan. Diharapkan hasilnya positif, di mana pengguna berhasil terdaftar dalam aplikasi."
+Test case ini mengotomasi proses pendaftaran pengguna yang belum memiliki akun dengan mengisi secara otomatis formulir pendaftaran dengan data yang relevan. Diharapkan hasilnya positif, di mana pengguna berhasil terdaftar dalam aplikasi.
 
 ### 3. Search Product Success
 #### Deskripsi
